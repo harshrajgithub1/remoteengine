@@ -7,7 +7,7 @@ export default function HireEasy() {
     {
       step: "Step 1",
       text: "Enter requirement",
-      icon: "/assets/img/arrow.jpg",
+      icon: "/assets/img/hireeasy.svg",
       additionalContent: (
         <div className="relative">
           <Image
@@ -28,17 +28,17 @@ export default function HireEasy() {
     {
       step: "Step 2",
       text: "RemoteEngine shows you the best developers",
-      icon: "/assets/img/arrow.jpg",
+      icon: "/assets/img/hireeasy.svg",
     },
     {
       step: "Step 3",
       text: "View & explore detailed analysis of developers",
-      icon: "/assets/img/arrow.jpg",
+      icon: "/assets/img/hireeasy.svg",
     },
     {
       step: "Step 4",
       text: "Schedule interview or hire instantly the candidates",
-      icon: "/assets/img/arrow.jpg",
+      icon: "/assets/img/hireeasy.svg",
     },
   ];
 

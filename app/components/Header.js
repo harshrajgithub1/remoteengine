@@ -17,7 +17,7 @@ export default function Header() {
           </p>
           <div className="relative">
             <Image
-              src="/assets/img/Search.png"
+              src="/assets/img/search.svg"
               alt="search"
               width={16}
               height={16}
