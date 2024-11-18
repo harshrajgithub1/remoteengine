@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className="w-[1440px] h-[3351px]">
       <Sidebar></Sidebar>
-      <div className="w-[1247px] ml-[193px]">
+      <div className="w-[1247px] ml-[193px] bg-white">
         <Header/>
         <Carousel/>
         <Hiring/>
