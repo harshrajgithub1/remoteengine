@@ -41,6 +41,7 @@ export default function Hiring() {
             />
           </div>
           <p className="text-black text-center mb-6">{card.description}</p>
+          {card.id === 2 && <br />}
           <div
             className="flex justify-center items-center gap-2 w-full"
             style={{
