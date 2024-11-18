@@ -1,0 +1,6 @@
+.individual-hiring{
+    border-radius: 10px;
+border: 1px solid var(--Grad-23, rgba(15, 10, 239, 0.75));
+background: var(--Grad-BG, linear-gradient(90deg, #ECECF9 0%, #FFF 100%));
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

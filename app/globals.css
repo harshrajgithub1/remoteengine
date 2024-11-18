@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ededed;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,19 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* Global hover effect using CSS modules */
+svg:hover path {
+  fill: #0f0aeF;
+  transition: fill 0.3s ease;
+}
+
+/* Apply scaling effect on hover */
+svg:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+:root {
+  --Text-Grey: #636363;
 }

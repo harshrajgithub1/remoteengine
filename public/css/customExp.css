@@ -1,0 +1,8 @@
+.custom-exp{
+    color: var(--Text-Grey, #636363);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

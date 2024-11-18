@@ -1,0 +1,9 @@
+.custom-box {
+    border-radius: 5px;
+    border: 1px solid var(--Grad12, rgba(15, 10, 239, 0.50));
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+  }
+  .text-blue{
+    color: '#0F0AEF';
+  }
