@@ -54,7 +54,7 @@ export default function Hiring() {
             }}
           >
             <button
-              className="w-full max-w-[474.5px] h-[44px] px-4 py-2 text-sm font-medium text-white"
+              className="w-full max-w-[474.5px] h-[44px] px-4 py-2 text-sm font-semibold text-white"
               style={{
                 borderRadius: "10px",
                 background: "var(--Blue-RE, #0F0AEF)",
