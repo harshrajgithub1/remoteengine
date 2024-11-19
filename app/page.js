@@ -5,7 +5,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import HireEasy from "./components/HireEasy";
 import Hiring from "./components/hiring";
-import Nis from "./components/nis";
+import HireDemo from "./components/hireDemo";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       
           <HireEasy/>
           <Carousel/>
-          
+        <HireDemo/> 
           
          
       </div>

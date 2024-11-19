@@ -61,8 +61,9 @@ export default function HireEasy() {
               />
             </svg>
           </div>
-          <div className="pt-[10px] text-black font-montserrat text-[40px] font-bold leading-none">
-            <p>Hire easy</p>
+          
+          <div className="w-[192px] h-[49px] text-black font-bold">
+          <p className="text-[40px]">Hire easy</p>
           </div>
         </div>
 
