@@ -39,7 +39,7 @@ export default function Carousel() {
   ];
 
   return (
-    <div className="w-[1120px] ml-[80px] mt-[70px]">
+    <div className="ml-[80px] mt-[70px]">
       <p className="text-[20px] text-[#636363]">
         Top 1% full stack developers ready for hire
         <Image
@@ -91,10 +91,10 @@ export default function Carousel() {
                   <div className="w-3 h-3 relative" />
                 </div>
                 <div>
-                  <span class="text-white text-base font-bold font-['Montserrat']">
+                  <span className="text-white text-base font-bold font-['Montserrat']">
                     90
                   </span>
-                  <span class="text-white text-[8px] font-bold font-['Montserrat']">
+                  <span className="text-white text-[8px] font-bold font-['Montserrat']">
                     /100
                   </span>
                 </div>

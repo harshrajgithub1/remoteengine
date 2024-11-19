@@ -40,3 +40,6 @@ svg:hover {
 :root {
   --Text-Grey: #636363;
 }
+.custom-border {
+  border: 1px solid rgba(15, 10, 239, 0.75); 
+}

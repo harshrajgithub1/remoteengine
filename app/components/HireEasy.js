@@ -44,7 +44,7 @@ export default function HireEasy() {
 
   return (
     <>
-      <div className="w-[1067px] ml-[80px] flex items-center gap-[195px]">
+      <div className="ml-[80px] flex items-center gap-[195px] mb-[136.68px]">
         {/* Left Section */}
         <div className="flex flex-col items-start gap-[10px]">
           <div className="w-[120px] h-[120px]">

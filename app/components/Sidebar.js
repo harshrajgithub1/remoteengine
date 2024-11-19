@@ -95,7 +95,7 @@ export default function Sidebar() {
 
   return (
     <>
-      <button
+    <button
         data-drawer-target="logo-sidebar"
         data-drawer-toggle="logo-sidebar"
         aria-controls="logo-sidebar"
@@ -118,14 +118,15 @@ export default function Sidebar() {
           ></path>
         </svg>
       </button>
+      <div>
 
       <aside
         id="logo-sidebar"
-        className="fixed top-0 left-0 z-40 w-[193px] h-full flex-shrink: 0 shadow-custom transition-transform -translate-x-full sm:translate-x-0"
+        className="fixed top-0 left-0 z-40 w-[193px] h-[1024px] flex-shrink: 0 shadow-custom transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
         style={{ border: "1px" }}
       >
-        <div className="w-[193px] h-full bg-white pl-[22px] pr-[22px]"
+        <div className="w-[193px]  bg-white pl-[22px] pr-[22px]"
           style={{ overflowY: "auto" }}>
           <div className="inline-flex justify-center items-center gap-1.25 pt-10 hover:cursor-pointer">
             <Image
@@ -198,6 +199,8 @@ export default function Sidebar() {
           </div>
         </div>
       </aside>
+      </div>
+      
     </>
   );
 }

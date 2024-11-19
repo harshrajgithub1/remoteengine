@@ -5,8 +5,8 @@ import "./../../public/css/custom.css";
 export default function Header() {
   return (
     <>
-      <section className="inline-flex  w-[1247px] h-[381px] bg-white">
-        <div className="w-[600px] h-[230px] pl-[85px] pt-[97px] pb-[54px]">
+      <section className="inline-flex h-[381px] bg-white">
+        <div className="h-[230px] pl-[85px] pt-[97px] pb-[54px]">
           <div className="w-[347px]">
             <p className="text-[40px] font-bold mb-6 text-black">
               Hire vetted Devs & AI Engineers

@@ -22,7 +22,7 @@ export default function Hiring() {
   ];
 
   return (
-    <div className="flex justify-center gap-[58px] mx-auto max-w-[1120px] mt-[189px] mb-[189px]">
+    <div className="flex justify-center gap-[58px] mx-auto max-w-[1120px] mt-[189px] mb-[189px] ml-20">
       {cards.map((card) => (
         <div
           key={card.id}
