@@ -27,7 +27,7 @@ export default function Header() {
               type="text"
               placeholder="Your prompt here..."
               style={{ borderRadius: "20px" }}
-              className="w-[600px] h-[60px] pt-[18px] pb-[18px] pl-[40px] pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              className="w-full h-[60px] pt-[18px] pb-[18px] pl-[40px] pr-[20px] border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             />
           </div>
         </div>
