@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import HireEasy from "./components/HireEasy";
 import Hiring from "./components/hiring";
 // import HireDemo from "./components/hireDemo";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -17,14 +18,14 @@ export default function Home() {
         </div>
       <div className="ml-[193px] bg-white">
         <Header/>
-        <Carousel/>
+        
+        <Card/>
          <Hiring/>
       
           <HireEasy/>
-          <Carousel/>
+          <Card/>
         {/* <HireDemo/>  */}
-          
-         
+        
       </div>
         
         
